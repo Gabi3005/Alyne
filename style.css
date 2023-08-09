@@ -1,0 +1,91 @@
+
+
+*{
+    margin: 0 auto;
+    padding: 0 auto; }
+    body {background-color:rgb(59, 224, 59) }
+    body {text-align: center;
+ }
+ 
+ .cabecalho2{
+   display: flex;
+   justify-content: space-around; 
+   align-items: center; 
+ }
+ 
+ .cabecalho{
+    font-style: italic ;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px; 
+    padding: 17px;
+ }
+ 
+ .texto1{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px; }
+ 
+ 
+ .texto1{ 
+   color: black;
+   padding: 24x 0; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font: italic;
+   font: bold;
+   font-size: 20px; 
+   line-height: 25px;
+ }
+ 
+ .cabecalho3{
+    font-style: italic ;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px; 
+    padding: 17px;
+ 
+ }
+ 
+ .cabecalho4{
+   display: flex;
+   justify-content: space-around; 
+   align-items: center; 
+ }
+ 
+ .Texto2{ 
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+      padding: 24x 0; 
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font: italic;
+      font: bold;
+      font-size: 20px; 
+      line-height: 25px;
+   }
+ 
+   .cabecalho5{
+    font-style: italic ;
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px; 
+    padding: 17px;
+   }
+ 
+   .cabecalho6{
+   display: flex;
+   justify-content: space-around; 
+   align-items: center; 
+ }
+ 
+ a {
+   text-decoration-style: none;
+   color: black;
+ }
+ 
+ a :hover {
+   cursor: pointer;
+ }
