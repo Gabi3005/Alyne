@@ -9,23 +9,7 @@ function randomIndex() {
     window.open(link.href, "_blank");
   }
   
-  function addRandomButton() {
-    var header = document.getElementsByTagName("h1")[0];
-    var button = document.createElement("button");
-    button.innerHTML = "Receita Aleatória";
-    button.style.fontFamily = "Arial, sans-serif";
-    button.style.fontSize = "24px";
-    button.style.color = "white";
-    button.style.backgroundColor = "#00b300";
-    button.style.border = "none";
-    button.style.padding = "10px";
-    button.style.marginLeft = "20px";
-    button.style.cursor = "pointer";
-    button.addEventListener("click", showRandomRecipe);
-    header.appendChild(button);
-  }
-  
-  document.addEventListener("DOMContentLoaded", addRandomButton);
+document.addEventListener("DOMContentLoaded", addRandomButton);
   
   function loadRecipe() {
     var link = event.target;
